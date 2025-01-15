@@ -1,0 +1,39 @@
+# First, deactivate current virtual environment if active
+deactivate
+
+# Remove existing virtual environment
+rm -rf venv
+
+# Create new virtual environment
+python -m venv venv
+
+# Activate virtual environment
+# For Linux/Mac:
+source venv/bin/activate
+# For Windows:
+# .\venv\Scripts\activate
+
+# Upgrade pip
+python -m pip install --upgrade pip
+
+# Install PyTorch and related packages (latest stable CPU version)
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+
+# Install other required packages
+pip install diffusers
+pip install transformers
+pip install accelerate
+pip install safetensors
+pip install pillow
+pip install tqdm
+
+
+# modify Prompt at line #100 or #101 in prompt variable
+
+#Run image_generator
+python image_generator.py
+
+or 
+
+python low_image_generator.py
+
