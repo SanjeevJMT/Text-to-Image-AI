@@ -20,7 +20,7 @@ TextToImageAI is a powerful yet simple-to-use text-to-image generation tool that
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/SanjeevJMT/TextToImageAI.git
+git clone https://github.com/SanjeevJMT/Text-to-Image-AI.git
 cd TextToImageAI
 ```
 
