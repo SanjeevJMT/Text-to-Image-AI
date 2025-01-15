@@ -113,4 +113,4 @@ This project is Not Licensed yet.
 
 Sanjeev JMT - [@SanjeevJMT](https://github.com/SanjeevJMT)
 
-Project Link: [https://github.com/SanjeevJMT/TextToImageAI](https://github.com/SanjeevJMT/TextToImageAI)
+Project Link: [https://github.com/SanjeevJMT/Text-to-Image-AI](https://github.com/SanjeevJMT/Text-to-Image-AI)
